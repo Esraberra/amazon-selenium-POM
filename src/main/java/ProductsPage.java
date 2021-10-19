@@ -6,8 +6,8 @@ import java.util.List;
 
 public class ProductsPage extends BasePage {
 
-By shippingOptionLocator=By.id("p_n_free_shipping_eligible-title");
-By productNamelocator=new By.ByCssSelector("span.a-size-base-plus");
+By shippingOptionLocator=By.id("climatePledgeFriendlyRefinements");
+By productNamelocator=new By.ByClassName("a-section aok-relative s-image-fixed-height");
     public ProductsPage(WebDriver driver) {
         super(driver);
     }

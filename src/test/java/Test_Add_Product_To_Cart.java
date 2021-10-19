@@ -22,6 +22,7 @@ CartPage cartPage;
 
     public void searchProduct(){
     homePage=new HomePage(driver);
+
     productsPage=new ProductsPage(driver);
 homePage.searchBox().search("Laptop");
 
